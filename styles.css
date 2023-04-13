@@ -6,6 +6,7 @@ table {
     border: 5px solid red;
     font-size: 2em;
     width: 30%;
+    text-align: center;
 }
 thead {
     background-color:bisque ;
@@ -14,7 +15,7 @@ tbody tr:nth-child(odd)
 {background-color:rgba(128, 128, 0, 0.555);}
 tbody tr:nth-child(even)
  {background-color:rgba(248, 177, 187, 0.527)} 
-tbody td:first-child {background-color: aqua; text-align: center;}
+tbody td:first-child {background-color: aqua;}
 
  tfoot {
     background-color: rgba(238, 55, 55, 0.575);
